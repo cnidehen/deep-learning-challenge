@@ -18,8 +18,8 @@ deep-learning-challenge/Results at main · cnidehen/deep-learning-challenge (git
 
 # Overview
 
-The deep-learning-challenge was designed to predict whether applicants will be successful if funded by nonprofit Alphabet Soup. Neural net deep learning model was used to analysis the 34,000 organisations that have received funding from Alphabet Soup over the years.
-Tensorflow Keras was used to complete the analysis generating highly accurate outcome. It was used to build and compile a neural net model based on the number of features with the number of layers and neurons set and generated 73.8% accuracy.
+The deep learning challenge was designed to predict whether applicants will be successful if funded by the nonprofit Alphabet Soup. A neural network deep learning model was used to analyze the 34,000 organizations that have received funding from Alphabet Soup over the years. TensorFlow Keras was used to complete the analysis, generating highly accurate results.
+The neural network model was built and compiled based on the number of features, with the number of layers and neurons set. The model achieved an accuracy of 73.8%.
 
 # Variables
 
@@ -48,13 +48,13 @@ Tensorflow Keras was used to complete the analysis generating highly accurate ou
 
 # Result
 
-•	Preprocessing
+•	Data Preprocessing
 
 1.	The only target variable in the dataset is IS_SUCCESSFUL.
 2.	These features were used for the analysis- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
 3.	EIN and NAME are identifications for the specific businesses that received funding over the year.
    
-•	Compiling, Training, and Evaluating the Model
+•	Model Compiling, Training, and Evaluating
 
 1.	I used 3 hidden layers for the optimisation after the initial two did not achieve 75% target point.The neurons were varied according to desired epection of 75% target result. Relu and sigmoid were interchangebly used at diffrenet optimisation point. 
 3.	The model reached a target accuracy of 73.8%.
