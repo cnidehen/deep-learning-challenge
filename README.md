@@ -43,7 +43,7 @@ Tensorflow Keras was used to complete the analysis generating highly accurate ou
 1.	The only target variable in the dataset is IS_SUCCESSFUL.
 2.	These features were used for the analysis- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
 3.	EIN and NAME are identifications for the specific businesses that received funding over the year.
-4.	
+   
 •	Compiling, Training, and Evaluating the Model
 
 1.	I used 3 hidden layers for the optimisation after the initial two did not achieve 75% target point.The neurons were varied according to desired epection of 75% target result. Relu and sigmoid were interchangebly used at diffrenet optimisation point. 
