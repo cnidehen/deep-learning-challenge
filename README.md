@@ -2,15 +2,19 @@
 Module 21 Challenge
 
 Source Data:  
+
 deep-learning-challenge/Resources/charity_data.csv at main · cnidehen/deep-learning-challenge (github.com)
 
 Primary Project Notebook: 
+
 deep-learning-challenge/deep_learning_challenge.ipynb at main · cnidehen/deep-learning-challenge (github.com)
 
 Optimization Notebook: 
+
 deep-learning-challenge/AlphabetSoupCharity_Optimisation.ipynb at main · cnidehen/deep-learning-challenge (github.com)
 
 Saved Models: 
+
 deep-learning-challenge/Results at main · cnidehen/deep-learning-challenge (github.com)
 
 
