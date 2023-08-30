@@ -1,11 +1,18 @@
 # deep-learning-challenge
 Module 21 Challenge
 
+Primary Project Notebook: deep-learning-challenge/deep_learning_challenge.ipynb at main · cnidehen/deep-learning-challenge (github.com)
+Optimization Notebook: deep-learning-challenge/AlphabetSoupCharity_Optimisation.ipynb at main · cnidehen/deep-learning-challenge (github.com)
+Saved Models: deep-learning-challenge/Results at main · cnidehen/deep-learning-challenge (github.com)
+
+
 # Overview
+
 The deep-learning-challenge was designed to predict whether applicants will be successful if funded by nonprofit Alphabet Soup. Neural net deep learning model was used to analysis the 34,000 organisations that have received funding from Alphabet Soup over the years.
 Tensorflow Keras was used to complete the analysis generating highly accurate outcome. It was used to build and compile a neural net model based on the number of features with the number of layers and neurons set and generated 73.8% accuracy.
 
 # Variables
+
 •	EIN and NAME—Identification columns
 
 •	APPLICATION_TYPE—Alphabet Soup application type
@@ -30,6 +37,7 @@ Tensorflow Keras was used to complete the analysis generating highly accurate ou
 
 
 # Result
+
 •	Preprocessing
 
 1.	The only target variable in the dataset is IS_SUCCESSFUL.
