@@ -7,24 +7,37 @@ Tensorflow Keras was used to complete the analysis generating highly accurate ou
 
 # Variables
 •	EIN and NAME—Identification columns
+
 •	APPLICATION_TYPE—Alphabet Soup application type
+
 •	AFFILIATION—Affiliated sector of industry
+
 •	CLASSIFICATION—Government organisation classification
+
 •	USE_CASE—Use case for funding
+
 •	ORGANIZATION—Organisation type
+
 •	STATUS—Active status
+
 •	INCOME_AMT—Income classification
+
 •	SPECIAL_CONSIDERATIONS—Special considerations for application
+
 •	ASK_AMT—Funding amount requested
+
 •	IS_SUCCESSFUL—Was the money used effectively
 
 
 # Result
 •	Preprocessing
+
 1.	The only target variable in the dataset is IS_SUCCESSFUL.
 2.	These features were used for the analysis- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
 3.	EIN and NAME are identifications for the specific businesses that received funding over the year.
+4.	
 •	Compiling, Training, and Evaluating the Model
+
 1.	I used 3 hidden layers for the optimisation after the initial two did not achieve 75% target point.The neurons were varied according to desired epection of 75% target result. Relu and sigmoid were interchangebly used at diffrenet optimisation point. 
 3.	The model reached a target accuracy of 73.8%.
 
